@@ -1,4 +1,4 @@
-#Dynamo DB Duplicate Finder
+# Dynamo DB Duplicate Finder
 
 ### Description
 
