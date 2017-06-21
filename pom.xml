@@ -5,7 +5,7 @@
 
   <groupId>org.aws.dynamodb</groupId>
   <artifactId>dynamodb-duplicate-finder</artifactId>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0</version>
   <packaging>jar</packaging>
 
   <name>dynamodb-duplicate-finder</name>

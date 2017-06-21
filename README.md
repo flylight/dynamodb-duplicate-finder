@@ -8,7 +8,7 @@ This is a simple example of how to deal with Dynamo DB Tables and looking for du
 
 ### Example of usage :
 
-```$java
+```java
     String region = eu-central-1;
     String tableName = testTable;
     String secondaryIndex = testColumn;
@@ -26,5 +26,8 @@ folder and execute in terminal:
 
 `java -jar DuplicateFinder.jar eu-central-1 testTable testColumn`
 
+### Notice
+
+Amazon Dynamo DB client uses credential provider that waiting your `AWS_ACCESS_KEY` and `AWS_SECRET_ACCESS_KEY` to be present in Environment or System variables. 
 
 ## Enjoy!
